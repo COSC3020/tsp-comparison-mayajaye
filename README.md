@@ -60,8 +60,8 @@ ever stores the current permutation of the route, while Held-Karp has a memory
 complexity of $\Theta(|V|\cdot 2^{|V|})$ since the cache stores the number of 
 cities times the number of subsets of the cities. 
 
-Though my Local Search's worst case runtime ($\Theta(|V|!\cdot|V|^{3})$) is worse 
-than my Held-Karps' ($\Theta(|V|!\cdot|V|^{3})$), there is a very small chance 
+Though my Local Search's worst case runtime of $\Theta(|V|!\cdot|V|^{3})$ is worse 
+than my Held-Karps' of $\Theta(|V|!\cdot|V|^{3})$, there is a very small chance 
 that case occurs for LS. Local Search stops searching when it doesn't see any 
 more local improvements, so it tends to do less work and take less time. That's 
 why, in practice, Local Search often runs much faster than Held-Karp. That's also
